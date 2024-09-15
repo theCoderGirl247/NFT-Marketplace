@@ -1,0 +1,238 @@
+/* css reset  */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+#pre{
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: rgba(250, 235, 215, 0.199);
+  padding: 10px;
+}
+
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Container02{
+  width: 40vw;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.setCenter{
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px;
+}
+
+.box02{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box03{
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 90px;
+  text-align: center;
+  background-color: hsla(0, 0%, 100%, 0);
+  transition: background-color 0.2s linear;
+}
+
+.box03:hover{
+  background-color: hsl(0, 0%, 100%);
+  color: black;
+}
+
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #09f;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto; /* Center the spinner */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.cardsList {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 350px;
+  height: 500px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(15, 15, 15, 0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  background-color: white;
+  cursor: pointer;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card .cardImage {
+  margin-top: 10px;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+}
+
+.card .cardImage img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .cardTitle {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.titleWhite {
+  color: white;
+}
+
+.titleBlack {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+#priceStyling{
+  color: black;
+  font-family: "Nunito sans", sans-serif;
+  font-weight: 500;
+  margin: 10px;
+}
+
+#descStyling{
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, sans-serif, serif;
+  font-weight: 500;
+  padding: 5px;
+  margin: 0px;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.adminDashboard{
+  width: 40vw;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column; 
+}
+
+.label {
+  display: block;
+  width: 95%;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: left;
+}
+
+.input,
+.textarea {
+  width: 90%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+.textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.updateButton{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  width: 30%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  padding: 10px 20px;
+  margin: 10px 0px;
+}
+
+.updateButton:hover {
+  background-color: #45a049;
+}
+
+.updateButton:active {
+  transform: scale(0.98);
+  background-color: #09490c;
+}
