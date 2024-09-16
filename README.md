@@ -19,6 +19,8 @@ The NFT Marketplace is a user-friendly platform for buying, selling, and managin
 8. **Comprehensive Error Handling:** Edge cases like failed transactions and insufficient balances are handled gracefully.
 9. **Testnet Deployment:** Deployed on the Sepolia testnet, offering a real-world environment for testing and development.
 
+Please visit the wiki for more information.
+
 ## Conclusion
 
 This NFT Marketplace combines security, ease of use, and community interaction, making it an ideal platform for both creators and collectors to explore the world of NFTs.
