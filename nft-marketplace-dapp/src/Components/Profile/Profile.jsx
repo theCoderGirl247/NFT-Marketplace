@@ -54,7 +54,7 @@ function Profile() {
       const tx = await contract.updateListingPrice(ListingPriceWei);
       await tx.wait();
       console.log("Success: Listing price updated to", listingPrice );
-      window.alert("Success: Listing price updated to", listingPrice );
+      window.alert(`Success: Listing price updated to ${listingPrice}`);
     } 
     catch (e) 
     { console.error("Error updating listing price:", e);
@@ -70,7 +70,7 @@ function Profile() {
       const tx = await contract.updateListingPrice(premiumFeeWei);
       await tx.wait();
       console.log("Success: Premium Fee updated to", premiumFee );
-      window.alert("Success: Premium Fee updated to", premiumFee );
+      window.alert(`Success: Premium Fee updated to ${premiumFee} );
     } 
     catch (e) 
     { console.error("Error updating premium fee:", e);
