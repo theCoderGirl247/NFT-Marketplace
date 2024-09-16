@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 .env
 node_modules/
-test_rsa_privkey.pem
+test/
