@@ -25,4 +25,4 @@ Please visit the wiki for more information.
 
 This NFT Marketplace combines security, ease of use, and community interaction, making it an ideal platform for both creators and collectors to explore the world of NFTs.
 
-# Please note that this Donation DApp operates on the Sepolia testnet and requires Sepolia ETH to function.
+# Please note that this NFT Marketplace operates on the Sepolia testnet and requires Sepolia ETH to function.
