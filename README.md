@@ -1,6 +1,6 @@
 # NFT MARKETPLACE DAPP
 
-This application is hosted at the following URL: https://codergirl247nftmarketplace.netlify.app/. Please visit the site to explore its features.
+This application is hosted at the following URL:  [Deployed Marketplace](https://codergirl247nftmarketplace.netlify.app/).  Please visit the site to explore its features.
 
 ## Description
 The NFT Marketplace is a user-friendly platform for buying, selling, and managing NFTs. It offers a seamless experience with features designed to make interacting with blockchain easy and secure. Whether you're looking to showcase your creations or collect unique digital assets, this marketplace provides all the tools needed in one place.
